@@ -1,0 +1,21 @@
+p{
+    color: brown;
+    font-size: 35px;
+    font-weight: bold;  /* màu chữ đậm */
+}
+body{
+    /* background-color: aquamarine; */
+    /* background-image: url(./Facebook.jpg); */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,121,9,0.5776435574229692) 35%, rgba(0,57,255,1) 100%);
+}
+a{
+    color: greenyellow;
+    display: block;   /* cách biệt cách link 1 và link 2 để nó xuống dòng */
+    text-decoration: none;/* bỏ đi gạch chân */
+}
+
+a:hover{
+    /* rê chuột vào nó đổi qua màu khác rê dô hello là thấy*/ 
+   color: blueviolet; 
+}

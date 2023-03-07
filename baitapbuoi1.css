@@ -1,0 +1,131 @@
+section{
+    width: 1000px;
+    height: auto;
+
+}
+.left{
+    width: 700px;
+    height: auto;
+    float: left; /* đẩy nó qua trái để ảnh 2 qua phải */
+}
+.left a{
+    /* nghia la a nam trong class lefft */
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+}
+.left a:hover{
+    color: rgba(0, 0, 0, 0.428);
+}
+.left img {
+    width: 500px;
+}
+.left p{
+    font-size: 18px;
+    text-align: justify;
+}
+.right{
+    width: 280px;  
+    height: auto;
+    /* là vì ta cho section là 1000 thì left là 700 r thì còn 300 lấy 280 để còn lề */
+    float: right;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+.right img{
+    width: 280px;
+    height: 320px;
+
+}
+section a img{
+    width: 800px;
+}
+section .khoi{
+    width: 380px;
+    display: inline-block;
+    /* cho nằm trong block  */
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+.khoi h4{
+    font-size: 20px;
+}
+.khoi h4:hover{
+    color:blue;
+
+}
+.khoi p{
+    font-size: 18px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid black;
+}
+
+.body-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header,
+.searchbar {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+    margin-right: 200px;
+}
+
+
+.searchbar {
+    height: 40px;
+    margin-right: 50px;
+    display: flex;
+    /* flex-wrap: nowrap; */
+}
+
+.searchbar button {
+    border: 2px solid blue;
+    outline: 2px solid blue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    /* margin-top: 10px; */
+    background-color: #d91227;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #3d3939;
+}
+.fa {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 100px;
+    color: white;
+}
